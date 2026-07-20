@@ -1,2 +1,14 @@
-# Exclude completely the dataset folder
-dataset/
+# Ignore all subfolders inside datasets
+datasets/*
+
+# NOT ignore the zipped created dataset
+!datasets/pcd_merge_kfcv.zip
+
+# Ignore all models
+models/yolov11/
+
+# Ignore dataset samples
+notebooks/datasets_samples/
+
+# Venv
+.venv/
