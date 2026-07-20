@@ -1,9 +1,6 @@
 # Ignore all subfolders inside datasets
 datasets/*
 
-# NOT ignore the zipped created dataset
-!datasets/pcd_merge_kfcv.zip
-
 # Ignore checkpoints
 notebooks/.ipynb_checkpoints/
 
